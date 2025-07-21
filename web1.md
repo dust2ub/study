@@ -1,6 +1,4 @@
-# study
-
-## HTML & Internet
+# HTML & Internet
 - TAG
     * <strong></strong>
     * <u></u>
@@ -61,5 +59,3 @@
      - <li></li>
    * <ol></ol>
      - <li></li>
-   
-    
