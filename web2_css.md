@@ -135,3 +135,15 @@ inline element
   </body>
   </html>
 ```
+- grid
+    * 아무런 의미와 기능이 없고 단지 디자인의 용도로만 쓰는 태그 div와 span
+    * <div></div>는 block level element
+    * <span></span>는 inline element
+    * display: grid;
+    * grid-template-columns: 150px(첫번째 열의 부피) 1fr(나머지 공간)
+    * 2fr 1fr 하면 2/3와 1/3을 쓰게 됨 -> 화면 전체를 쓰게자동을로 조정되는 단위 fr
+    * css에서 id 값이 abc인 태그 밑에 있는(자식) <ol> 이라는 의미 -> #abc ol{ }
+
+ - Responsive Web: 화면의 크기에 따라서 웹페이지의 각 요소들이 반응해서 최적화 된 모양으로 바뀌게 하는 것
+     * Media Query
+         - 
