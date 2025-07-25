@@ -145,5 +145,16 @@ inline element
     * css에서 id 값이 abc인 태그 밑에 있는(자식) <ol> 이라는 의미 -> #abc ol{ }
 
  - Responsive Web: 화면의 크기에 따라서 웹페이지의 각 요소들이 반응해서 최적화 된 모양으로 바뀌게 하는 것
-     * Media Query
-         - 
+    * Media Query
+         - @media(min-width:800px) { } -> 스크린 너비가 800px보다 크면
+      
+- <style> 태그를 빼고 css코드만 style.css에 저장 후 <link rel="stylesheet" href="style.css">를 사용
+    * 유지보수 편리, 재사용성, 사용성 높아짐. 코드 수 감소(-> 네트워크 측면에서도 캐싱을 사용하기 때문에 트래픽 감소)
+
+```html
+@media(max-width:800px) {
+  div{
+    display:none;
+  }
+}
+```
